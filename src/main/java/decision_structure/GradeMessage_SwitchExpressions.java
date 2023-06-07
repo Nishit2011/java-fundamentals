@@ -12,7 +12,10 @@ public class GradeMessage_SwitchExpressions {
         String message = switch (grade){
             case "A" -> "Excellent job";
             case "B" -> "Good job!";
-            case "C" -> "Average job";
+            case "C" -> {
+                System.out.println("Hello");
+                yield "Average job";
+            }
             default -> "Default";
         };
         System.out.println(message);
