@@ -1,6 +1,6 @@
 package objects;
 
-public class Encapsulation {
+public class Rectangle {
 
     private int length;
     private int breadth;
@@ -10,7 +10,7 @@ public class Encapsulation {
     //initial values being set
     public Rectangle(){
         setLength(0);
-        setWidth(0);
+        setBreadth(0);
     }
 
     //below is a constructor
