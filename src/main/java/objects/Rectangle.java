@@ -24,7 +24,7 @@ public class Rectangle {
         return 2*(length+breadth);
     }
 
-    public  int getArea(int length, int breadth){
+    public  int getArea(){
         return length*breadth;
     }
 
